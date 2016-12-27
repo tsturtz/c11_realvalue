@@ -1013,7 +1013,7 @@ angular.module('realValue')
             };
 
             var res_markers = {};
-            //console.log('places geojson: ', dataService.placesGeojson2);
+            console.log('places geojson: ', dataService.placesGeojson2);
             if (!isNaN(mc.area_click_on) && mc.county_click_on==="Orange") {
                 //console.log(mc.area_click_on, 'is a number');
                 if (dataService.placesGeojson2.hasOwnProperty("zipCode")) {
