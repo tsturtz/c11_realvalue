@@ -15,7 +15,7 @@ angular.module('realValue')
             var deferred = $q.defer();
 
             //TODO fixed this for uploading to github/server
-            $http.get("https://realvalue.io/prototypes/geocoding_get.php?s="+param)
+            $http.get("http://realvalue.io/prototypes/geocoding_get.php?s="+param)
                 .then(function(response) {
                     //console.log(response);
                     deferred.resolve(response);
